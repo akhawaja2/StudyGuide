@@ -244,9 +244,14 @@ How do you serve a page with content in multiple languages?	Accept-Language head
 What is the difference between span and div?	div is a block element
 span is inline element
 For bonus points, you could point out that it's illegal to place a block element inside an inline element, and that while div can have a p tag, and a p tag can have a span, it is not possible for span to have a div or p tag inside
+  
 What is kernel?	A kernel is the core of every operating system. It connects applications to the actual processing of data.
-objective of multiprogramming.	The main objective of multiprogramming is to have a process running at all times. With this design, CPU utilization is said to be maximized.
-What is a thread?	A thread is a basic unit of CPU utilization.
+  
+objective of multiprogramming.	
+  The main objective of multiprogramming is to have a process running at all times. With this design, CPU utilization is said to be maximized.
+
+  What is a thread?
+  A thread is a basic unit of CPU utilization.
 benefits of multithreaded programming.	- there is increased responsiveness to the user- resource sharing within the process- economy- utilization of multiprocessing architecture
 Briefly explain FCFS.	FCFS stands for First-come, first-served. 
 
