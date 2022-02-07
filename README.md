@@ -28,8 +28,12 @@ ORDER BY class.max_seats_available DESC
 #**what are primary and foreign keys	primary key is unique identifier, foreign key is a PK indicates a PK in a different table
 
 Foreign keys give data integrity
-How would you test adding or deleting something from a database without altering it	Transactions
-What are Constraints?	SQL constraints are used to specify rules for data in a table.
+#**How would you test adding or deleting something from a database without altering it	
+Transactions
+
+
+#**What are Constraints?	
+SQL constraints are used to specify rules for data in a table.
 
 NOT NULL
 CHECK
@@ -39,15 +43,27 @@ PRIMARY KEY
 FOREIGN KEY
 
 ex. CREATE TABLE table_name ( Column1 VARCHAR NOT NULL);
-What are Entities and Relationships?	Entities - person/place/thing whose data can be stored in DB
+
+
+#** What are Entities and Relationships?	
+Entities - person/place/thing whose data can be stored in DB
 Relationship: link between entities, ex. Customer name is related to acc #, contact info.
-Advantages of normilization?	Better Database organization
+
+
+#**Advantages of normilization?	
+
+Better Database organization
 More Tables with smaller rows
 Efficient data access
 Quickly find the information
 Easier to implement Security
-What is the difference between DROP and TRUNCATE commands?	DROP command removes a table and it cannot be rolled back from the database whereas TRUNCATE command removes all the rows from the table.
-What is ACID property in a database?	ACID stands for Atomicity, Consistency, Isolation, Durability. 
+
+
+#**What is the difference between DROP and TRUNCATE commands?	
+
+DROP command removes a table and it cannot be rolled back from the database whereas TRUNCATE command removes all the rows from the table.
+#**What is ACID property in a database?	
+ACID stands for Atomicity, Consistency, Isolation, Durability. 
 
 It is used to ensure that the data transactions are processed reliably in a database system.
 Are NULL values same as that of zero or a blank space?	A NULL value is not at all same as that of zero or a blank space. 
@@ -55,16 +71,28 @@ Are NULL values same as that of zero or a blank space?	A NULL value is not at al
 NULL value represents a value which is unavailable, unknown, assigned or not applicable 
 
 a zero is a number and blank space is a character.
-What is a DB Relationship and what are they?	Relationships are defined as the connection between the tables in a database. 
+
+
+#**What is a DB Relationship and what are they?	
+
+Relationships are defined as the connection between the tables in a database. 
 
 One to One Relationship. (one employee has 1 ID card)
 
 One to Many Relationship. (One city has many customers)
 
 Many to Many Relationship. (One student can register for many classes, and a class can contain many students)
-What is a having clause? What is a where clause? What is the difference between 'HAVING' CLAUSE and a 'WHERE' CLAUSE?	The main difference between WHERE and HAVING clause comes when used together with GROUP BY clause, In that case WHERE is used to filter rows before grouping and HAVING is used to exclude records after grouping.
+
+
+#**What is a having clause? What is a where clause? What is the difference between 'HAVING' CLAUSE and a 'WHERE' CLAUSE?	
+
+The main difference between WHERE and HAVING clause comes when used together with GROUP BY clause, In that case WHERE is used to filter rows before grouping and HAVING is used to exclude records after grouping.
 Having used with aggregates while Where is used with column data
-What are aggregate functions?	Aggregate functions are used to evaluate mathematical calculation and returns a single value. These calculations are done from the columns in a table. For example- max(),count() are calculated with respect to numeric.
+
+
+#**What are aggregate functions?	
+
+Aggregate functions are used to evaluate mathematical calculation and returns a single value. These calculations are done from the columns in a table. For example- max(),count() are calculated with respect to numeric.
 What are scalar functions SQL?	An SQL scalar function is a user-defined function written in SQL and it returns a single value each time it is invoked
 
 
@@ -95,22 +123,23 @@ WHERE a.KEY is NULL
 Group by vs. Order BY	ORDER BY alters the order in which items are returned.
 GROUP BY will aggregate records by the specified columns which allows you to perform aggregation functions on non-grouped columns (such as SUM, COUNT, AVG, etc).
   
-  
-  
-  Abstract class vs. Interface	with abstract classes, you can declare fields that are not static and final, and define public, protected, and private concrete methods. 
+**Abstract class vs. Interface?
+with abstract classes, you can declare fields that are not static and final, and define public, protected, and private concrete methods. 
 
 With interfaces, all fields are automatically public, static, and final, and all methods are public. 
 
 In addition, you can extend only one class, whether or not it is abstract, whereas you can implement any number of interfaces.
 .NET managed vs unmanaged code	Code written in C# or Visual Basic .NET will when compiled run only in the CLR which provides garbage collection/memory managementunmanaged code can't rely on the CLR to provide this kind of portability.
 What did you use for backend	ASP.NET /Ext.JS
-Abstract class vs Abstract Method	Abstract class: is a restricted class that cannot be used to create objects
+
+  
+#** Abstract class vs Abstract Method	Abstract class: is a restricted class that cannot be used to create objects
  
 abstract method: can only be used in an abstract class, and it does not have a body. The body is provided by the child class. 
 
 cannot call the method unless body provided in subclass
 
- same for abstract class, cannot create abstract class, only the ones that extend it.)
+same for abstract class, cannot create abstract class, only the ones that extend it.)
 Mvc vs mvvm	MVC format is specifically designed to create a separation of concerns between the model and view, the MVVM format with data-binding is designed specifically to allow the view and model to communicate directly with each other.
 
 In MVC you interact with controller, in MVVM the view
