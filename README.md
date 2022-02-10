@@ -273,3 +273,12 @@ what is a process?	process is the instance of a computer program that is being e
 what is a lock/mutex and difference?	A mutex is an object which can be locked.
 
 A lock is the object which maintains the lock. To create a lock, you need to pass it a mutex.
+  
+  Questions to Study
+  
+  
+  - Referential Integrity
+  - Static keyword C#
+  - Internal vs public vs private vs protected
+  - Deferred Execution
+  - Lazy & Fast Loading 
